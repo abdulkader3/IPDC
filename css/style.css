@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+
+}
+
+h1 h2 h3 h4 h5 h6 p ul ol {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --alu: "Poppins", sans-serif;
+}
+
+
+
+
+
+
+
+
+.m-manu ul {
+    gap: 36px;
+}
+
+.m-manu ul li a {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--alu);
+    color: #000;
+    position: relative;
+}
+
+.m-manu ul li a::after {
+    content: " ";
+    width: 100%;
+    height: 2px;
+    background: hotpink;
+    top: 100%;
+    left: 0;
+    position: absolute;
+    transform: scale(0);
+    transition: all linear .3s;
+
+}
+
+.m-manu ul li a:hover:after {
+    transform: scale(1.3);
+
+}
+
+.m-buttons {
+    display: flex;
+    gap: 33px;
+    align-items: center;
+}
+
+.m-buttons .s-i {
+    width: 26px;
+    height: 26px;
+    color: #ED017F;
+}
+
+.m-buttons a {
+    padding: 8px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--alu);
+    color: #fff;
+    background: #ED017F;
+    border-radius: 4px;
+    letter-spacing: 2px;
+    transition: all linear .2s;
+
+}
+
+.m-buttons a:hover {
+    background: transparent;
+    border: solid 1px #ED017F;
+    color: #000;
+}
+
+.container .col-lg-6 h1 {
+    width: 452px;
+    height: 136px;
+    font-size: 63px;
+    font-weight: 400;
+    font-family: "Abril Fatface", serif;
+    margin-top: 140px;
+}
+
+.container .col-lg-6 p {
+    width: 380px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: var(--alu);
+    margin-top: 23px;
+    margin-bottom: 38px;
+}
+
+.container .col-lg-6 .b a {
+    width: 157px;
+    height: 46px;
+    background: #ED017F;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 900;
+    font-family: var(--alu);
+    padding: 13px 23px;
+    color: #fff;
+    transition: all linear .2s;
+}
+
+.container .col-lg-6 .b {
+    display: flex;
+    gap: 20px;
+}
+
+.container .col-lg-6 .b a:hover {
+    background: transparent;
+    border: solid 1px #ED017F;
+    color: #ED017F;
+}
+
+.container .col-lg-6 .p-2 {
+    margin-top: 185px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+
+}
+
+.container .col-lg-6 .big-banner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+
+}
+
+.row .had {
+    display: flex;
+    justify-content: center;
+    margin-top: 78px;
+    margin-bottom: 76px;
+
+}
+
+.row .photo {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 135px;
+}
+
+.row .dot {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container .col-lg-12 h2 {
+
+
+    font-size: 36px;
+    font-weight: 900;
+    font-family: var(--alu);
+    color: #000;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.container .col-lg-12 p {
+
+
+    font-size: 16px;
+    font-weight: 900;
+    font-family: var(--alu);
+    color: #999999;
+    text-align: center;
+    margin-bottom: 76px;
+}
+
+.container .row .wtf {
+    width: 270px;
+}
+
+.m-wtf {
+    justify-content: space-between;
+    padding-bottom: 48px;
+}
+
+.container .row .wtf h4 {
+    font-size: 22px;
+    font-weight: 900;
+    font-family: var(--alu);
+    color: #363940;
+
+}
+
+.container .row .wtf p {
+    font-size: 14px;
+    font-weight: 900;
+    font-family: var(--alu);
+    color: #999999;
+}
+
+.container .col-lg-12 h4 {
+    width: 274px;
+    height: 35px;
+    font-size: 23px;
+    font-weight: 900;
+    font-family: var(--alu);
+    top: 150px;
+}
+
+#t-luke {
+    background: url(../photo/Frame1.png);
+    width: 100%;
+    height: 449px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.try {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.row .col-lg-6 .tpar h5 {
+    width: 352px;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: var(--alu);
+}
+
+.row .col-lg-6 .tpar p {
+    width: 460px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--alu);
+    color: #676767;
+}
+
+.row .col-lg-6 .tpar {
+    padding-top: 140px;
+}
+
+.row .col-lg-6 .tpar a {
+    position: absolute;
+    top: 493px;
+}
+
+
+
+
+.s04 {
+    background: url(../photo/Frame1.png);
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+.row .wtf09 h6 {
+    font-size: 36px;
+    font-weight: 900;
+    font-weight: var(--alu);
+    color: #343434;
+
+
+}
+
+.row .wtf09 p {
+    font-size: 16px;
+    font-weight: 900;
+    font-weight: var(--alu);
+    color: #999999;
+
+
+}
+
+.row .wtf09 .had1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 66px;
+    padding-left: 220px;
+}
+
+.wtf09 .pacragaf {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 217px;
+}
+
+.gotitmaybe .op-photos h6 {
+    font-size: 21px;
+    font-weight: 900;
+    font-family: var(--alu);
+
+}
+
+.tex-arro {}
+
+.tex-arro .ttex {
+    width: 150px;
+}
+
+.gotitmaybe .op-photos .tex-arro {
+    display: flex;
+    padding-top: 22px;
+    gap: 70px;
+}
+
+.gotitmaybe .allphotos .op-photos {
+    width: 254px;
+    display: flex;
+    gap: 90px;
+}
+
+.op-photos .secandphotp {
+    width: 205px;
+}
+
+
+
+
+
+.our-b-t .obtp {
+    width: 548px;
+}
+
+.our-b-t {
+    margin-left: 369px;
+    margin-top: 106px;
+}
+
+.our-b-t .obth {
+    width: 522px;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: var(--alu);
+    color: #343434;
+}
+
+
+
+.row .num {
+    width: 172px;
+    padding-bottom: 50px;
+}
+
+.row .num h3 {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: var(--alu);
+    color: #343434;
+    transition: all linear .2s;
+}
+
+.row .num h3:hover {
+    color: #ED017F;
+}
+
+
+.row .num p {
+    font-size: 16px;
+    font-weight: 900;
+    font-family: var(--alu);
+    color: #676767;
+}
+
+.almostdone {
+    margin-top: 34px;
+    margin-left: 69px;
+}
+
+#almostlast {
+    background: url(../photo/Frame1.png);
+    width: 100%;
+    height: 100vh;
+}
+
+.f-had p {
+    font-size: 16px;
+    font-weight: 900;
+    font-family: var(--alu);
+    color: #676767;
+
+}
+
+.f-had h5 {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: var(--alu);
+    color: #343434;
+
+}
+
+.f-had .lots-t {
+    width: 410px;
+    margin-left: 444px;
+}
+
+
+.f-had .Newsletter {
+    margin-top: 83px;
+    margin-bottom: 20px;
+    margin-left: 530px;
+}
+
+.f-had .e-button {
+    display: flex;
+    justify-content: center;
+    gap: 11px;
+}
+
+.f-had .e-button .email {
+    width: 343px;
+}
+
+.f-had .e-button .email {
+    border-radius: 4px;
+
+}
+
+.e-button .email {
+
+    padding: 12px 0 12px 15px;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: var(--alu);
+    color: #676767;
+
+
+}
+
+
+.f-had .e-button .button {
+    background: #ED017F;
+    width: 132px;
+    height: 46px;
+    border: none;
+    border-radius: 4px;
+
+}
+
+
+.akta-hoile {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 400px;
+    margin-left: 80px;
+}
+
+.akta-hoile .row {
+    width: 257px;
+    height: 192px;
+}
